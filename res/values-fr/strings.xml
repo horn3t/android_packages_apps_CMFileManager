@@ -52,22 +52,22 @@
   <string name="msgs_settings_save_failure">Impossible d\'appliquer ou d\'enregistrer le réglage</string>
   <string name="msgs_settings_invalid_initial_directory">Le dossier d\'accueil "<xliff:g id="initial_dir">%1$s</xliff:g>" est invalide. Changement vers le dossier racine.</string>
   <string name="msgs_success">Opération réussie</string>
-  <string name="msgs_unknown">Une erreur a été détectée. L\'opération a échoué</string>
+  <string name="msgs_unknown">Une erreur a été détectée. L\'opération a échouée</string>
   <string name="msgs_insufficient_permissions">Cette opération nécessite une élévation des droits. Tentative d\'accès Root.</string>
   <string name="msgs_file_not_found">Fichier ou dossier introuvable</string>
   <string name="msgs_command_not_found">Commande introuvable ou définition invalide</string>
-  <string name="msgs_io_failed">Lecture/Ecriture échouée</string>
+  <string name="msgs_io_failed">Lecture/Écriture échouée</string>
   <string name="msgs_operation_timeout">Opération expirée</string>
   <string name="msgs_operation_failure">Opération échouée</string>
   <string name="msgs_console_alloc_failure">Erreur interne</string>
   <string name="msgs_operation_can_not_be_cancelled">Impossible d\'annuler l\'opération</string>
-  <string name="msgs_read_only_filesystem">Le système de fichiers est en lecture seul. Essayez de monter le système de fichiers en lecture-écriture avant de retenter l\'opération.</string>
+  <string name="msgs_read_only_filesystem">Le système de fichiers est en lecture seule. Essayez de monter le système de fichiers en lecture-écriture avant de retenter l\'opération.</string>
   <string name="msgs_illegal_argument">Argument illégal. Invocation échouée.</string>
   <string name="msgs_unresolved_inconsistencies">Opération non autorisée pour cause d\'incohérences</string>
   <string name="msgs_operation_not_allowed_in_current_directory">Opération non autorisée dans le dossier actuel</string>
   <string name="msgs_push_again_to_exit">Appuyer encore pour sortir</string>
   <string name="msgs_not_registered_app">Aucune application disponible pour ouvrir le fichier sélectionné</string>
-  <string name="msgs_overwrite_files">Certains fichiers existent déjà dans le dossier de destination.\n\nEcraser\u00A0?</string>
+  <string name="msgs_overwrite_files">Certains fichiers existent déjà dans le dossier de destination.\n\nÉcraser\u00A0?</string>
   <string name="msgs_action_association_failed">Impossible d\'associer l\'action à l\'application</string>
   <string name="advise_insufficient_permissions">L\'opération nécessite une élévation des privilèges.\n\nVoulez-vous passer en mode Root\u00A0?</string>
   <string name="parent_dir">Dossier parent</string>
@@ -224,8 +224,8 @@
     <![CDATA[<b>Fichier</b>]]> <xliff:g id="file">%1$s</xliff:g></string>
   <string name="waiting_dialog_analizing_msg">
     <![CDATA[<b>Analyse\u2026</b>]]></string>
-  <string name="msgs_extracting_success">Extraction correctement terminée. Les donnéees ont été extraite dans <xliff:g id="destination">%1$s</xliff:g>.</string>
-  <string name="msgs_compressing_success">Compression correctement terminée. Les donnéees ont été compressé dans <xliff:g id="destination">%1$s</xliff:g>.</string>
+  <string name="msgs_extracting_success">Extraction correctement terminée. Les donnéees ont été extraites dans <xliff:g id="destination">%1$s</xliff:g>.</string>
+  <string name="msgs_compressing_success">Compression correctement terminée. Les donnéees ont été compressées dans <xliff:g id="destination">%1$s</xliff:g>.</string>
   <string name="actions_dialog_title">Actions</string>
   <string name="actions_menu_properties_current_folder">Propriétés</string>
   <string name="actions_menu_refresh">Rafraîchir</string>
@@ -317,8 +317,8 @@
   <string name="pref_editor">Options de l\'éditeur</string>
   <string name="pref_themes">Thèmes</string>
   <string name="pref_about">À propos</string>
-  <string name="pref_about_summary">File Manager v<xliff:g id="version">%1$s</xliff:g>
-    \nCopyright \u00A9 2012 The CyanogenMod Project</string>
+  <string name="pref_about_summary">Explorateur de fichiers v<xliff:g id="version">%1$s</xliff:g>
+    \nCopyright \u00A9 2013 Le projet CyanogenMod</string>
   <string name="pref_general_behaviour_category">Général</string>
   <string name="pref_case_sensitive_sort">Sensible à la casse</string>
   <string name="pref_case_sensitive_sort_summary">Tenir compte de la casse lors de la navigation ou du tri des résultats de recherche</string>
@@ -371,7 +371,7 @@
   <string name="pref_themes_confirmation">Thème appliqué avec succès</string>
   <string name="pref_themes_not_found">Thème introuvable</string>
   <string name="pref_debug_traces">Informations de débogage</string>
-  <string name="theme_default_name">Thème Clair</string>
+  <string name="theme_default_name">Thème clair</string>
   <string name="theme_default_description">Un thème clair pour l\'Explorateur de fichiers CyanogenMod.</string>
   <string name="themes_author">CyanogenMod</string>
   <string name="color_picker_alpha_slider_text">Alpha</string>
@@ -393,5 +393,5 @@
       Bienvenue dans l\'Explorateur de fichiers CyanogenMod.
       \n\nCette application vous permet d\'explorer le système de fichiers et d\'effectuer des opérations qui pourraient endommager votre appareil. Pour éviter tout dommage, l\'application va démarrer dans un mode sécurisé.
       \n\nVous pouvez avoir un accés complet, en mode Root via les paramètres de l\'application. Il est de votre responsabilité de veiller à ce que les opérations effectuées n\'endommagent pas votre système.
-      \n\nL\'Équipe CyanogenMod\n</string>
+      \n\nL\'équipe CyanogenMod\n</string>
 </resources>
